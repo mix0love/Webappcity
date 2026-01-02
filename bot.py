@@ -1,13 +1,13 @@
 import logging
 from aiogram import Bot, Dispatcher, executor, types
 
-# Вставь сюда токен, который ты взял у @BotFather
+
 API_TOKEN = '8509244045:AAHF5UjdLnUyYbEW-SGLiSX44W55LMj6dVs'
 
-# Настройка логирования
+
 logging.basicConfig(level=logging.INFO)
 
-# Инициализация бота и диспетчера
+
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 
